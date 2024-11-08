@@ -18,7 +18,7 @@ CREATE TABLE [dbo].[Employee](
 	[Emp_LastName] VARCHAR(30),
 	[Emp_Birthday] DATE,
 	[Emp_HireDate] DATE,
-    [Emp_Email] VARCHAR(255) UNIQUE
+    	[Emp_Email] VARCHAR(255) UNIQUE
 ) 
 GO
 
