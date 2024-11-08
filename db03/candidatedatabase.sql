@@ -17,6 +17,7 @@ CREATE TABLE [dbo].[Employee](
 	[Emp_FirstName] VARCHAR(30),
 	[Emp_LastName] VARCHAR(30),
 	[Emp_Birthday] DATE,
+	[Emp_City] VARCHAR(30),
 	[Emp_HireDate] DATE,
     	[Emp_Email] VARCHAR(255) UNIQUE
 ) 
@@ -36,13 +37,13 @@ CREATE TABLE [dbo].[Emp_Skill](
 )
 GO
 
-INSERT INTO Employee ([Emp_ID], [Emp_FirstName], [Emp_LastName], [Emp_Email], [Emp_Birthday], [Emp_HireDate])
+INSERT INTO Employee ([Emp_ID], [Emp_FirstName], [Emp_LastName], [Emp_Email], [Emp_Birthday], [Emp_HireDate], [Emp_City])
 VALUES
-(1, 'John', 'Doe', 'john.doe@example.com','12-25-1980', '01-07-2010'),
-(2, 'Jane', 'Smith', 'jane.smith@example.com','09-07-1993', '11-08-2016'),
-(3, 'Alice', 'Johnson', 'alice.johnson@example.com','08-20-1998', '11-08-2022'),
-(4, 'Howell', 'Ervin', 'howell.ervin@example.com','08-20-1998', '05-04-2024'),
-(5, 'Reichert', 'Glenna', 'reichert.glenna@example.com','08-20-1994', '12-12-2024')
+(1, 'John', 'Doe', 'john.doe@example.com','12-25-1980', '01-07-2010','Berlin'),
+(2, 'Jane', 'Smith', 'jane.smith@example.com','09-07-1993', '11-08-2016', 'London'),
+(3, 'Alice', 'Johnson', 'alice.johnson@example.com','08-20-1998', '11-08-2022', 'San Francisco'),
+(4, 'Howell', 'Ervin', 'howell.ervin@example.com','08-20-1998', '05-04-2024', 'San Francisco'),
+(5, 'Reichert', 'Glenna', 'reichert.glenna@example.com','08-20-1994', '12-12-2024', 'London')
 GO
 SELECT * FROM Employee
 GO
