@@ -46,8 +46,8 @@ CREATE TABLE [dbo].[Payments]
     [Customer_ID] INT FOREIGN KEY REFERENCES Customer([Customer_ID]),
     [Product_ID] INT FOREIGN KEY REFERENCES Product([Product_ID]),
     [PaymentDate] DATE,
-	[Amount] DECIMAL(10,2),
-	PRIMARY KEY([Customer_ID], [Product_ID], [PaymentDate])
+    [Amount] DECIMAL(10,2),
+    PRIMARY KEY([Customer_ID], [Product_ID], [PaymentDate])
 )
 GO
 
