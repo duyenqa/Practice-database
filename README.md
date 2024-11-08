@@ -1,2 +1,7 @@
-# Practice-database
-SQL
+# Practice-database SQL
+- Use SELECT - FROM - WHERE
+- Use GROUP BY
+- Use HAVING
+- Use ORDER BY ASC/DESC
+- Use COUNT(), MAX(),MIN(),SUM()
+- JOIN TABLES (INNER JOIN, LEFT JOIN, RIGHT JOIN)
