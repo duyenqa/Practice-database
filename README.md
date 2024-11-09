@@ -4,7 +4,7 @@
 - Use HAVING
 - Use ORDER BY ASC/DESC
 - Use COUNT(), MAX(),MIN(),SUM()
-- Subquery
+- Use Subquery
 - Use DATEDIFF: calculate numbers of months/years
 - JOIN TABLES (INNER JOIN, LEFT JOIN, RIGHT JOIN)
 
