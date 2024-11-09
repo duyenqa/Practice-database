@@ -14,3 +14,6 @@
 
 # DB03
 <img src="https://github.com/duyenqa/images/blob/main/2024-11-09_103931.png"  width="70%" alt="db03"> 
+
+## Author design database: 
+Ngô Thị Kim Duyên
